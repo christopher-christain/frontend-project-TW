@@ -3,7 +3,7 @@ const initApp = () => {
     const mobileMenu = document.getElementById('mobile-menu')
 
 // #issue: menu toggle isnt working , trying to fix the damn issue
-    const toggleMenu =() =>{
+    const toggleMenu = () => {
         mobileMenu.classlist.toggle('hidden')
         mobileMenu.classlist.toggle('flex')
 
